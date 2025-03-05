@@ -3,7 +3,7 @@ Suraksha Kavach is an innovative safety and security system designed to provide 
 
 ### Abstract
 * Despite the fact that our country is a powerhouse with a developing economy, it nevertheless has a number of crimes against women.
-* To address this big issue, we offer "Samraksh" as a solution.
+* To address this big issue, we offer "Suraksha" as a solution.
 * This is a safety mechanism designed exclusively for women who are in difficulties, stress, etc.
 * Our system contains GPS Module, ESP8266, LED, Thingspeak Cloud service, Button & Beep Buzzar.
 * When a person is in distress, she must hit the button on the system provided.
