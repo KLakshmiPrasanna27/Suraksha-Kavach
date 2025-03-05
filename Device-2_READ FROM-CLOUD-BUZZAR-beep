@@ -1,12 +1,12 @@
 #include "ThingSpeak.h"
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "Prasanna"; //enter wifi name
-const char* password = "bunny2705"; //enter wifi passsword
+const char* ssid     = " "; //enter wifi name
+const char* password = " "; //enter wifi passsword
 
 //ThingSpeak Channel Details
-unsigned long myChannelNumber =2860082 ; //enter thingspeak channel number
-const char * myReadAPIKey = "JPHSFF1ZK9U8LXYG";  //enter thingspeak read API Key
+unsigned long myChannelNumber = ; //enter thingspeak channel number
+const char * myReadAPIKey = " ";  //enter thingspeak read API Key
 const int FieldNumber3 = 3;
 WiFiClient  client;
 
