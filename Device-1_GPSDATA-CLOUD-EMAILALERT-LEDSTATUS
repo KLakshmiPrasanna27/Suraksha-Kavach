@@ -9,12 +9,12 @@ static const int RXPin = 12 , TXPin = 13;
 static const uint32_t GPSBaud = 9600;
 
 //Password Details
-const char* ssid     = "Prasanna"; //enter wifi name
-const char* password = "bunny2705"; //enter wifi password
+const char* ssid     = " "; //enter wifi name
+const char* password = " "; //enter wifi password
 
 //ThingSpeak Channel Details
-unsigned long myChannelNumber = 2860082;  //enter thingspeak Channel Number
-const char * myWriteAPIKey = "JPHSFF1ZK9U8LXYG";  //enter thingspeak write API Key
+unsigned long myChannelNumber = ;  //enter thingspeak Channel Number
+const char * myWriteAPIKey = " ";  //enter thingspeak write API Key
 
 //Button & LED Initializing
 int LEDpin = 5;
@@ -83,11 +83,11 @@ void loop()
 
                     //EMAIL FUNCTION
                     
-                    EMailSender emailSend("lakshmiprasannareddy527@gmail.com", "Prasanna#532");
+                    EMailSender emailSend(" ", " ");
                     EMailSender::EMailMessage message;
                     message.subject = "Danger!!!HELP!!";
                     message.message = "Danger!!";
-                    EMailSender::Response resp = emailSend.send("varshithaakkala@gmail.com", message);
+                    EMailSender::Response resp = emailSend.send(" ", message);
                     Serial.println("Sending status: ");
                     Serial.println(resp.code);
                     Serial.println(resp.desc);
