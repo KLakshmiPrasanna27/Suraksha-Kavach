@@ -1,13 +1,14 @@
 # Suraksha-Kavach
 Suraksha Kavach is an innovative safety and security system designed to provide real-time protection for individuals and property. With the increasing concerns about personal safety, workplace security, and emergency response, this project integrates IoT, AI, and cloud computing to create an efficient and intelligent security framework.
+
 ###Abstract:
-1. Despite the fact that our country is a powerhouse with a developing economy, it nevertheless has a number of crimes against women.
-2. To address this big issue, we offer "Samraksh" as a solution.
-3. This is a safety mechanism designed exclusively for women who are in difficulties, stress, etc.
-4. Our system contains GPS Module, ESP8266, LED, Thingspeak Cloud service, Button & Beep Buzzar.
-5. When a person is in distress, she must hit the button on the system provided.
-6. The location of the device is determined in terms of longitude & latitude along with date and time. Then this data is sent to the Real-Time Cloud Service.
-7. Now trusted person/family can access the location by copy-pasting that longitude & latitude into the Google Map followed by "," as soon as they are alerted by our system.
+* Despite the fact that our country is a powerhouse with a developing economy, it nevertheless has a number of crimes against women.
+* To address this big issue, we offer "Samraksh" as a solution.
+* This is a safety mechanism designed exclusively for women who are in difficulties, stress, etc.
+* Our system contains GPS Module, ESP8266, LED, Thingspeak Cloud service, Button & Beep Buzzar.
+* When a person is in distress, she must hit the button on the system provided.
+* The location of the device is determined in terms of longitude & latitude along with date and time. Then this data is sent to the Real-Time Cloud Service.
+* Now trusted person/family can access the location by copy-pasting that longitude & latitude into the Google Map followed by "," as soon as they are alerted by our system.
 
 ### Introduction
 * Safety being one of the most concerning issues, it is necessary to find an efficient way to ensure the safety of the people and the society.
