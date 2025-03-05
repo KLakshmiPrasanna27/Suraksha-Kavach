@@ -1,8 +1,8 @@
-EMailSender emailSend("lakshmiprasannareddy527@gmail.com", "Prasanna#532");
+EMailSender emailSend(" ", " ");
                     EMailSender::EMailMessage message;
                     message.subject = "Danger!!!HELP!!";
                     message.message = "Danger!!";
-                    EMailSender::Response resp = emailSend.send("varshithaakkala@gmail.com", message);
+                    EMailSender::Response resp = emailSend.send(" ", message);
                     Serial.println("Sending status: ");
                     Serial.println(resp.code);
                     Serial.println(resp.desc);
